@@ -46,6 +46,12 @@ public class Concesionario_Service implements IConcesionario_SERVICE {
 		
 	}
 
+	@Override
+	public void deleteConcesionarioById(Integer idConcesionario) {
+		concesionarioDao.deleteById(idConcesionario);
+		
+	}
+
 	
 
 }

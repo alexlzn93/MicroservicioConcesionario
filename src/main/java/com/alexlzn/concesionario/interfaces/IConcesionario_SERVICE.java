@@ -11,6 +11,6 @@ public interface IConcesionario_SERVICE {
 	List<Concesionario> getConcesionarios();
 	List<Coche> getCochesByIdConcesionario(Integer idConcesionario);
 	Concesionario addConcesionario(Concesionario concesionario);
-	
+	void deleteConcesionarioById(Integer idConcesionario);
 	
 }
